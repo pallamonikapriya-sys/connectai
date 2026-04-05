@@ -1,0 +1,15 @@
+# ConnectAI – Smart Networking Bot
+# Python dependencies
+
+# ── Web Framework ──────────────────────────────────────────────────────────────
+Flask==3.0.3
+gunicorn==22.0.0              # Production WSGI server (used by Render/Heroku)
+
+# ── WhatsApp / SMS ─────────────────────────────────────────────────────────────
+twilio==9.2.3
+
+# ── Firebase / Firestore ───────────────────────────────────────────────────────
+firebase-admin==6.5.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1          # Load .env files for local development
